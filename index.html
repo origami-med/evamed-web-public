@@ -1,15 +1,32 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>evamed-web</title>
-    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.x/css/materialdesignicons.min.css" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-BGzo86ET.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DzlAnhBu.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>evamed - Medical Practice Management System</title>
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+		<meta
+			http-equiv="Content-Security-Policy"
+			content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: http: https: blob: file:; font-src 'self' data:; connect-src 'self' http: https: ws: wss:; worker-src 'self' blob:; frame-src 'self' blob: data: https:; child-src 'self' blob: data:; object-src 'self' blob: data:;"
+		/>
+		<link rel="icon" href="./favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				overflow: hidden;
+			}
+			#app {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
+		<script type="module" crossorigin src="./assets/index-DhUf4HYW.js"></script>
+		<link rel="stylesheet" crossorigin href="./assets/index-CoGHa6wf.css">
+	</head>
+
+	<body>
+		<div id="app"></div>
+	</body>
 </html>
